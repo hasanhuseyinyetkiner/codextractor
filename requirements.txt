@@ -1,0 +1,13 @@
+# Dosya Tarayıcı Uygulaması Gereksinimleri
+# Bu uygulama sadece Python standart kütüphanelerini kullanır
+
+# Python sürümü
+# Python 3.6 veya üzeri gerekli
+
+# Standart kütüphaneler (Python ile birlikte gelir):
+# - tkinter (GUI için)
+# - os (dosya sistemi işlemleri için)
+# - threading (çoklu thread desteği için)
+# - datetime (tarih/saat işlemleri için)
+
+# Ek kütüphaneler gerekmez - tüm bağımlılıklar Python standart kütüphanesinde mevcuttur
