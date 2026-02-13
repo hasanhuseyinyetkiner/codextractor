@@ -1,5 +1,7 @@
 # 🚀 LLM Context Generator
 
+![Terminal Demo](images/terminal_demo.png)
+
 [![Python CI](https://github.com/hasanhuseyinyetkiner/codextractor/actions/workflows/ci.yml/badge.svg)](https://github.com/hasanhuseyinyetkiner/codextractor/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
