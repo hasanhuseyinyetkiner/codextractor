@@ -15,7 +15,7 @@
 - 📦 **Zero Dependencies**: Uses only Python standard libraries. Scales anywhere.
 - 🔍 **Intelligent Filtering**: Automatically skips binaries, lock files, and common noise (`node_modules`, `.git`, `venv`).
 - 📝 **.gitignore Support**: Respects your existing `.gitignore` patterns.
-- 🎯 **Extension Filtering**: Only include what you need (e.g., just `.py` and `.js`).
+- 🎯 **Extension Filtering**: Only include what you need (e.g., just `.py` and `.js`, or one grouped selection like `@content`).
 - 🤖 **LLM Optimized**: Outputs structured Markdown with relative path headers and code blocks.
 
 ---
@@ -31,8 +31,13 @@ python3 llm_context.py
 ### Advanced Usage
 Pack a specific project, filtered by extensions, with verbose logging:
 ```bash
-python3 llm_context.py /path/to/project -o codebase.md -e .py .js -v
+python3 llm_context.py /path/to/project -o codebase.md -e @content -v
 ```
+
+`@content` bundles the requested text-based extensions into a single selection:
+`.yml`, `.md`, `.sample`, `.sh`, `.json`, `.mmd`, `.txt`, `.cpp`, `.html`, `.idx`, `.js`, `.pack`, `.template`, `.xml`.
+
+> Note: `.pdf` is still skipped by the current text-only reader. If you want PDF extraction too, we can add a dedicated parser in a follow-up.
 
 ---
 
